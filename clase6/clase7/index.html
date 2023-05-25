@@ -4,32 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Formulario.html</title>
 </head>
 <body>
     <h1>Formularios</h1>
+    <fieldset>
+        <legend>Datos de la persona:</legend>
     <form>  
-        <input type="submit" value="Enviar"/>
-    </form>
-</body>
-</html><label>Nombre:</label>
-<input type="text" id="nombre">:
-Placerholder="escribe tu nombre"
-<form method="POST"></form>
-<label>Password:</label><br/>
+        <label>Nombre:</label>
+<input type="text" id="nombre" Placerholder="escribe tu nombre"><br/>
+<label>Password:</label>
 <input type="password" id="password" name="password" required="true"/><br/>
-
-<label>Ocupación</label></br>
-<input type="radio" id="estudiante" name="ocupacion" value="estudiante"/>
-<label>Estudiante</label><br/>
-<input type="radio" id="docente" name="ocupacion" value="docente"/>
-<label>Docente</label><br/>
-
-<label>Ocupación</label></br>
-<input type="radio" id="estudiante" name="ocupacion" value="estudiante"/>
-<label>Estudiante</label><br/>
-<input type="radio" id="docente" name="ocupacion" value="docente"/>
-<label>Docente</label><br/>
 
 <label>Ocupación</label></br>
 <input type="radio" id="estudiante" name="ocupacion" value="estudiante"/>
@@ -44,57 +30,17 @@ multiple="true"
 <label>Comentarios</label><br/>
 <textarea id="comentario" name="comentario" rows="2" cols="30"></textarea>
 
-<fieldset>
-    <legend>Datos de la persona:</legend>
 
 
-</fieldset>
 
+
+<br/>
 <input type="reset" value="Restablecer valores">
 
+        <input type="submit" value="Enviar"/>
+    </form>
+</fieldset>
+</body>
+</html>
 
-html{
-    height:100%;
-}
-body{
-    margin:0;
-    padding:0;
-    background: linear-gradient(#7209b7, #3f37c0);
-}
-.contenedor{
-    margin: 50px auto;
-    width: 400px;
-    padding: 30px;
-    background: rgba(0,0,0,.5);
-    border-radius: 10px;
-}
-.contenedor h2{
-    margin: 0 0 30px;
-    padding: 0;
-    font-size: 30px;
-    color: #4cc9f0;
-
-    text-align: center;
-
-}
-.contenedor .elemento label{
-    color: #fff;
-}
-.contenedor .elemento input{
-    width: 100%;
-    padding: 10px 0;
-    color: #fff;
-    background: transparent;
-    border:none;
-    border-bottom: 1px solid #fff;
-    margin-bottom: 30px;
-}
-.contenedor .elemento input[type="submit"]{
-    background-color: #f72585;
-    border:none;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    cursor: pointer;
-    padding: 15px;
-    margin-top: 30px;
-}
+<a href="pagina1.html">ir a pagina 1</a>
