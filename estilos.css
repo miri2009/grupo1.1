@@ -1,0 +1,26 @@
+ul{
+    list-style-type: none;
+    background-color: orange;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+
+li{
+    float:left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+
+}
+
+div.barra{
+    position: fixed
+}
+    
